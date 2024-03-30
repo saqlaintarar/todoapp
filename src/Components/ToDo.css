@@ -1,0 +1,75 @@
+.addtask{
+ display: wrap;
+  justify-content: space-evenly; 
+  margin-right:  50px;
+
+}
+.input{
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 15px;   
+}
+.button{
+    
+    background-color: black;
+    color: aliceblue;
+    padding: 15px;
+    cursor: pointer;
+}
+.addtodo{
+    width: 400px;
+    color: black;
+    border-radius: 1rem;
+    margin: auto;
+    
+}
+.todos {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px;
+    
+}
+
+.tasklist {
+    width: 80%;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    padding: 10px;
+    font-family: sans-serif;
+    font-style: oblique;
+    margin-bottom: 10px;
+    box-shadow: 3px;
+    border-bottom: 1px solid #888;
+    margin-right: 10px;
+    
+}
+
+.check {
+    display: flex;
+    margin-right: 10px;
+  
+}
+.todoname{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.buttoncontainer {
+    display: flex;
+    align-items: center;
+
+}
+
+.button2,
+.button3{
+    display:  flex end;
+    color: black;
+    background-color: white;
+    border-radius: 3px;
+    padding: 5px 10px; /* Add padding to buttons */
+    margin-left: 10px;
+    transition: background-color 0.3s ease; 
+    cursor: pointer;
+
+}
